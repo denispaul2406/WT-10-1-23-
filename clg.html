@@ -17,6 +17,14 @@
             color: white;
             float: right;
         }
+        a:link, a:visited {
+            color: white;
+            /* padding: 14px 25px; */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+
         div.container{
             animation-name: fading;
             animation-duration: 4s;
@@ -162,11 +170,26 @@
                 position: absolute;
                 bottom: 8px;
                 left: 16px;
-}
+            }
    
-        
+            .copyright_text {
+                font-size: 14px;
+                text-align: left;
+                color: rgba(0, 0, 0, 0.38);
+                
+            }
+            .container1{
+                position: relative;
+                text-align: center;
+                color: white;}
 
-
+            .bottom-left_1{
+                position: absolute;
+                bottom: 35px;
+                left: 100px; 
+                color: #223039;
+                }
+            
     </style>
 </head>
 <body>
@@ -174,7 +197,7 @@
 <div id="Home">
     <div clas="container">
     <ul class="nav">
-      <button><li a href="#courses" class="nav">Apply</a></li></button>
+      <button class="button"><a href="https://admissions.rvu.edu.in/" class="nav">Apply</a></button>
     </ul>
     </div>
     <br>
@@ -201,16 +224,25 @@
       </div>
     </div>
     <div style="background-color: white;" class="body">
-    <p style="display: inline-block;" id="About">RV University is a well-renowned institution of higher learning that offers a wide range of undergraduate and graduate programs. The university has a diverse student population, with students from all over the world. The faculty is highly qualified and dedicated to providing students with a top-notch education. The campus is modern and equipped with state-of-the-art facilities, including libraries, computer labs, and research centers. RV University also has a strong focus on extracurricular activities and encourages students to get involved in clubs, organizations, and sports. The university is also known for its strong emphasis on practical, hands-on learning and internships. Overall, RV University is an excellent choice for students looking for a high-quality education in a supportive and dynamic environment.</p>        
+    <p style="display: inline-block;" id="About">RV University is a well-renowned institution of higher learning that offers a wide range of undergraduate and graduate programs. The university has a diverse student population, with students from all over the world. The faculty is highly qualified and dedicated to providing students with a top-notch education. The campus is modern and equipped with state-of-the-art facilities, including libraries, computer labs, and research centers. RV University also has a strong focus on extracurricular activities and encourages students to get involved in clubs, organizations, and sports. The university is also known for its strong emphasis on practical, hands-on learning and internships. Overall, RV University is an excellent choice for students looking for a high-quality education in a supportive and dynamic environment.</p>     
+    <br>
+    <div class="container1">
+    <img src ="https://rvu.edu.in/wp-content/uploads/2022/03/banner-image-02-01.png">
+    <div class="bottom-left_1"><h1>RVU at a Glance</h1>
+    <br>
+    <h3>A Legacy of 8 decades in Nation Building,<br>
+        through Education and Research that empowers<br>
+        students to “Go, Change the World.”</h3>
+    </div></div>
 </div>
 <h2 align="center">Courses</h2>
 <div id="Courses">
   <ul class="course">
-<li>BBA</li>
-<li>B.Tech</li>
-<li>B.Des</li>
-<li>B.Com</li>
-<li>B.Sc(Hons)</li>
+<li><a href ="https://rvu.edu.in/ug-programs/b-b-a-hons/">BBA</a></li>
+<li><a href ="https://rvu.edu.in/ug-programs/b-tech-hons-school-of-computer-science-and-engineering/">B.Tech</a></li>
+<li><a href ="https://rvu.edu.in/ug-programs/b-des/">B.Des</a></li>
+<li><a href="https://rvu.edu.in/ug-programs/b-com-hons/">B.Com</a></li>
+<li><a href="https://rvu.edu.in/ug-programs/b-sc-computer-science/">B.Sc(Hons)</a></li>
   </ul>
 </div>
 <h2 align="center">Contact Us</h2>
@@ -221,6 +253,7 @@
   <p style="font-size: smaller;" align="left">Contact no:91xxxxxxxx</p>
   <p style="font-size: smaller;" align="left">e-mail-rvu@gmail.com</p>
 </div>
+<p class="copyright_text">&copy; 2020-2021, <a href="https://rvu.edu.in">rvu.edu.in</a> . All rights reserved.</p>
 </body>
 </html>
 
